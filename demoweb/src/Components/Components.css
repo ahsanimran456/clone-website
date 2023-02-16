@@ -107,6 +107,26 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    left: unset !important;
+    right: unset !important;
+    text-align: center !important;
+    align-items: center !important;
+    width: 100%;
+    top: -3%;
+}
+.sliderSearchContainer h3{
+    font-size: 43px;
+}
+.Seeworks{
+    margin: 10px 0;
+}
+.Seeworks button{
+    padding: 7px 15px;
+    background-color: #3E3A3D;
+    border: 1px solid #F3AB00;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 600;
 }
 .sliderSearch{
     display: flex;

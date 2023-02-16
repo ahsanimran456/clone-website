@@ -51,7 +51,7 @@ function HeaderSlider() {
                         <Carousel.Caption className='sliderSearchContainer'>
                             <h3>Give your Events a Royal Look</h3>
                             {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
-                            <div>
+                            <div className='Seeworks'>
                                 <button>See how It Works</button>
                             </div>
                             <div className='sliderSearch'>
