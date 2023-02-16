@@ -2,7 +2,9 @@ import '../Components.css'
 import {
     MailOutlined,
     PhoneOutlined,
-    UnorderedListOutlined
+    UnorderedListOutlined,
+    EnvironmentOutlined,
+    CalendarOutlined
 } from '@ant-design/icons';
 import Carousel from 'react-bootstrap/Carousel';
 function HeaderSlider() {
@@ -55,10 +57,12 @@ function HeaderSlider() {
                                 <button>See how It Works</button>
                             </div>
                             <div className='sliderSearch'>
-                                <div>
-                                    <input type="text"  placeholder='Find Location'/>
+                                <div style={{position:"relative"}}>
+                                    <EnvironmentOutlined className='searchicons' />
+                                    <input type="text" placeholder='Find Location' />
                                 </div>
-                                <div>
+                                <div style={{position:"relative"}}>
+                                    <CalendarOutlined className='searchicons' />
                                     <input type="text" placeholder='Select Service' />
                                 </div>
                                 <div>
