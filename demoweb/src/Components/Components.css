@@ -172,5 +172,37 @@
 .main-services{
     display: flex;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
     width: 100%;
 }
+
+.ourservice-prodcts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicessec{
+    display: flex;
+    justify-content: center;
+}
+.col-md-3.col-sm-12 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.viewcart {
+    width: 70%;
+    height: 169px;
+}
+.viewcart img {
+    width: 100%;
+    border-radius: 60%;
+    height: 100%;
+}
+/* .col img , .eachcard img{
+    width: 100%;
+    border-radius: 100%;
+} */
