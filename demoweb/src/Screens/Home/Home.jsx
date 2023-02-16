@@ -1,7 +1,7 @@
 import HeaderSlider from "../../Components/HeaderSlider/HeaderSlider";
 function Home() {
     return (
-        <div className="container">
+        <div>
             <div>
                 <HeaderSlider />
             </div>
