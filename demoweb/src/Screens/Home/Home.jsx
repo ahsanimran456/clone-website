@@ -1,10 +1,14 @@
 import HeaderSlider from "../../Components/HeaderSlider/HeaderSlider";
+import Services from "../../Components/Service/Services";
 function Home() {
     return (
         <div>
-            <div>
+            <section>
                 <HeaderSlider />
-            </div>
+            </section>
+            <section>
+                <Services />
+            </section>
         </div>
     );
 }
