@@ -116,6 +116,9 @@
     width: 100%;
     top: 5%;
 }
+.carousel-control-prev,.carousel-control-next {
+    display: none !important;
+}
 
 .sliderSearchContainer h3 {
     font-size: 43px;

@@ -8,6 +8,9 @@ import {
 } from '@ant-design/icons';
 import Carousel from 'react-bootstrap/Carousel';
 function HeaderSlider() {
+    const ale = ()=>{
+        alert("hello")
+    }
     return (
         <>
             <div className="topheader">
@@ -33,7 +36,7 @@ function HeaderSlider() {
                 </div>
             </div>
             <div className="slider">
-                <Carousel fade >
+                <Carousel fade touch="true" keyboard="true" >
                     <Carousel.Item interval={100000} >
                         <img
                             className="d-block w-100"
@@ -44,7 +47,7 @@ function HeaderSlider() {
                             <h3>EVENT MANAGEMENT</h3>
                         </Carousel.Caption>
                         <Carousel.Caption className='custom-btnlogin'>
-                            <button style={{ cursor: "pointer" }}>Sign Up</button>
+                            <button style={{ cursor: "pointer" }} onClick={ale}>Sign Up</button>
                         </Carousel.Caption>
                         <Carousel.Caption className='custom-btnsign'>
                             <button style={{ cursor: "pointer" }}>Sign In</button>
