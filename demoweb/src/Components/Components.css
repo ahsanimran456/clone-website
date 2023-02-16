@@ -66,7 +66,9 @@
     top: 5%;
     left: unset !important;
 }
-.custom-btnlogin button,.custom-btnsign button{
+
+.custom-btnlogin button,
+.custom-btnsign button {
     padding: 5px 10px;
     border-radius: 7px;
     background-color: #fff !important;
@@ -103,7 +105,7 @@
     box-shadow: inset 0 0 50px rgba(0, 0, 0, 1);
 }
 
-.sliderSearchContainer{
+.sliderSearchContainer {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -114,13 +116,16 @@
     width: 100%;
     top: -3%;
 }
-.sliderSearchContainer h3{
+
+.sliderSearchContainer h3 {
     font-size: 43px;
 }
-.Seeworks{
+
+.Seeworks {
     margin: 10px 0;
 }
-.Seeworks button{
+
+.Seeworks button {
     padding: 7px 15px;
     background-color: #3E3A3D;
     border: 1px solid #F3AB00;
@@ -128,7 +133,22 @@
     color: #fff;
     font-weight: 600;
 }
-.sliderSearch{
+
+.sliderSearch {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.sliderSearch input {
+    padding: 0 5px;
+    border: 3px solid #7C7571;
+
+}
+
+.sliderSearch button {
+    padding: 0px 22px;
+    border: 3px solid #7C7571;
+    background-color: #F3AB00;
+    color: #FFF;
 }

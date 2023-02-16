@@ -56,10 +56,10 @@ function HeaderSlider() {
                             </div>
                             <div className='sliderSearch'>
                                 <div>
-                                    <input type="text" />
+                                    <input type="text"  placeholder='Find Location'/>
                                 </div>
                                 <div>
-                                    <input type="text" />
+                                    <input type="text" placeholder='Select Service' />
                                 </div>
                                 <div>
                                     <button>Search</button>
