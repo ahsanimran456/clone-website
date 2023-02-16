@@ -48,9 +48,23 @@ function HeaderSlider() {
                             <button style={{ cursor: "pointer" }}>Sign In</button>
                         </Carousel.Caption>
 
-                        <Carousel.Caption>
+                        <Carousel.Caption className='sliderSearchContainer'>
                             <h3>Give your Events a Royal Look</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+                            <div>
+                                <button>See how It Works</button>
+                            </div>
+                            <div className='sliderSearch'>
+                                <div>
+                                    <input type="text" />
+                                </div>
+                                <div>
+                                    <input type="text" />
+                                </div>
+                                <div>
+                                    <button>Search</button>
+                                </div>
+                            </div>
                         </Carousel.Caption>
 
                         {/* <Carousel.Caption>
