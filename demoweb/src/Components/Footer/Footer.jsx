@@ -10,7 +10,7 @@ import {
 } from '@ant-design/icons';
 function Footer() {
     return (
-        // <div className="container">
+
         <>
             <div className="footermain">
                 <div className="row">

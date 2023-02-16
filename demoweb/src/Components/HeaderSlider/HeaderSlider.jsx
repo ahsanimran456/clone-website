@@ -8,7 +8,9 @@ import {
 } from '@ant-design/icons';
 import Carousel from 'react-bootstrap/Carousel';
 function HeaderSlider() {
-
+    const selcet = () => {
+        alert("hello")
+    }
 
     return (
         <>
@@ -35,8 +37,8 @@ function HeaderSlider() {
                 </div>
             </div>
             <div className="slider">
-                <Carousel fade >
-                    <Carousel.Item interval={100000} >
+                <Carousel fade  controls={true} touch={true} >
+                    <Carousel.Item interval={1000}touch={true} disabled={false}>
                         <img
                             className="d-block w-100"
                             src={require("../../Assets/Images/background4.jpg")}
@@ -47,14 +49,43 @@ function HeaderSlider() {
                         </Carousel.Caption>
                         <Carousel.Caption className='custom-btnlogin' >
                             <button style={{ cursor: "pointer" }}>Sign Up</button>
-                        </Carousel.Caption>
-                        <Carousel.Caption className='custom-btnsign'>
                             <button style={{ cursor: "pointer" }}>Sign In</button>
                         </Carousel.Caption>
-
                         <Carousel.Caption className='sliderSearchContainer'>
                             <h3>Give your Events a Royal Look</h3>
-                            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+                            <div className='Seeworks'>
+                                <button onClick={selcet}>See how It Works</button>
+                            </div>
+                            <div className='sliderSearch'>
+                                <div style={{ position: "relative" }}>
+                                    <EnvironmentOutlined className='searchicons' />
+                                    <input type="text" placeholder='Find Location' />
+                                </div>
+                                <div style={{ position: "relative" }}>
+                                    <CalendarOutlined className='searchicons' />
+                                    <input type="text" placeholder='Select Service' />
+                                </div>
+                                <div>
+                                    <button>Search</button>
+                                </div>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item interval={1000}touch={true} >
+                        <img
+                            className="d-block w-100"
+                            src={require("../../Assets/Images/background2.jpg")}
+                            alt="First slide"
+                        />
+                        <Carousel.Caption className='custom-heading'>
+                            <h3>EVENT MANAGEMENT</h3>
+                        </Carousel.Caption>
+                        <Carousel.Caption className='custom-btnlogin' >
+                            <button style={{ cursor: "pointer" }}>Sign Up</button>
+                            <button style={{ cursor: "pointer" }}>Sign In</button>
+                        </Carousel.Caption>
+                        <Carousel.Caption className='sliderSearchContainer'>
+                            <h3>Give your Events a Royal Look</h3>
                             <div className='Seeworks'>
                                 <button>See how It Works</button>
                             </div>
@@ -72,35 +103,39 @@ function HeaderSlider() {
                                 </div>
                             </div>
                         </Carousel.Caption>
-
-                        {/* <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption> */}
                     </Carousel.Item>
-                    <Carousel.Item >
+                    <Carousel.Item interval={1000}touch={true} >
                         <img
                             className="d-block w-100"
-                            src={require("../../Assets/Images/background2.jpg")}
-                            alt="Second slide"
+                            src={require("../../Assets/Images/background1.jpg")}
+                            alt="First slide"
                         />
-                        {/* <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption> */}
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={require("../../Assets/Images/background3.jpg")}
-                            alt="Third slide"
-                        />
-                        {/* <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </p>
-                        </Carousel.Caption> */}
+                        <Carousel.Caption className='custom-heading'>
+                            <h3>EVENT MANAGEMENT</h3>
+                        </Carousel.Caption>
+                        <Carousel.Caption className='custom-btnlogin' >
+                            <button style={{ cursor: "pointer" }}>Sign Up</button>
+                            <button style={{ cursor: "pointer" }}>Sign In</button>
+                        </Carousel.Caption>
+                        <Carousel.Caption className='sliderSearchContainer'>
+                            <h3>Give your Events a Royal Look</h3>
+                            <div className='Seeworks'>
+                                <button>See how It Works</button>
+                            </div>
+                            <div className='sliderSearch'>
+                                <div style={{ position: "relative" }}>
+                                    <EnvironmentOutlined className='searchicons' />
+                                    <input type="text" placeholder='Find Location' />
+                                </div>
+                                <div style={{ position: "relative" }}>
+                                    <CalendarOutlined className='searchicons' />
+                                    <input type="text" placeholder='Select Service' />
+                                </div>
+                                <div>
+                                    <button>Search</button>
+                                </div>
+                            </div>
+                        </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
             </div>
