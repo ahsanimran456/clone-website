@@ -20,13 +20,19 @@ function Services() {
                             <div>
                                 <h3>PARTY HALLS</h3>
                             </div>
+                            <div>
+                                <span>33 EVENTS | 45Structive Providers</span>
+                            </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
                             <div className='viewcart'>
-                                <img src={require("../../Assets/Images/person.jpg")} alt="" />
+                                <img src={require("../../Assets/Images/haircut.jpg")} alt="" />
                             </div>
                             <div>
                                 <h3>SALOONS</h3>
+                            </div>
+                            <div>
+                                <span>33 EVENTS | 45Structive Providers</span>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
@@ -36,6 +42,9 @@ function Services() {
                             <div>
                                 <h3>CATRING SERVICES</h3>
                             </div>
+                            <div>
+                                <span>33 EVENTS | 45Structive Providers</span>
+                            </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
                             <div className='viewcart'>
@@ -44,15 +53,21 @@ function Services() {
                             <div>
                                 <h3>DRESS DESIGERS</h3>
                             </div>
+                            <div>
+                                <span>33 EVENTS | 45Structive Providers</span>
+                            </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row servicessec">
                         <div className="col-md-3 col-sm-12">
                             <div className='viewcart'>
                                 <img src={require("../../Assets/Images/orginatization.jpg")} alt="" />
                             </div>
                             <div>
                                 <h3>EVENT ORGANIZERS</h3>
+                            </div>
+                            <div>
+                                <span>33 EVENTS | 45Structive Providers</span>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
@@ -62,6 +77,9 @@ function Services() {
                             <div>
                                 <h3>STAGE DECORATION</h3>
                             </div>
+                            <div>
+                                <span>33 EVENTS | 45Structive Providers</span>
+                            </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
                             <div className='viewcart'>
@@ -70,13 +88,19 @@ function Services() {
                             <div>
                                 <h3>LIGHTING DECORATION</h3>
                             </div>
+                            <div>
+                                <span>33 EVENTS | 45Structive Providers</span>
+                            </div>
                         </div>
                         <div className="col-md-3 col-sm-12">
                             <div className='viewcart'>
                                 <img src={require("../../Assets/Images/rentacar.jpg")} alt="" />
                             </div>
                             <div>
-                                <h3>RENT A CAR </h3>
+                                <h3>RENT A CAR</h3>
+                            </div>
+                            <div>
+                                <span>33 EVENTS | 45Structive Providers</span>
                             </div>
                         </div>
                     </div>

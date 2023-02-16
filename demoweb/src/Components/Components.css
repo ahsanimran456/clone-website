@@ -184,25 +184,72 @@
 .servicessec{
     display: flex;
     justify-content: center;
+    margin-top: 20px !important;
 }
 .col-md-3.col-sm-12 {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     text-align: center;
     align-items: center;
+}
+.col-md-3.col-sm-12 h3{
+    color:#8d8b8b;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+    width: 100%;
+}
+.col-md-3.col-sm-12 span{
+    color:#8d8b8b;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    /* font-weight: 400 */
 }
 
 .viewcart {
     width: 70%;
     height: 169px;
+    margin-bottom: 10px;
 }
 .viewcart img {
     width: 100%;
     border-radius: 60%;
     height: 100%;
 }
-/* .col img , .eachcard img{
+
+/* book services  */
+
+.booksService{
+    background-image: url(../Assets/Images/back2.jpg);
     width: 100%;
-    border-radius: 100%;
-} */
+    background-size: contain;
+    object-fit: cover;
+    padding: 40px 0;
+}
+
+.book-heading{
+    display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.bookservicesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookicons{
+    padding:30px;
+    background-color:#fff;
+    border-radius:100px;
+    border:1px solid #7C7571;
+}
+.bookSearcheach{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
