@@ -1,0 +1,11 @@
+.signup {
+    position: absolute;
+    background: #fff;
+    width: 350px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.buttonSignup{
+    position: relative;
+}
