@@ -1,0 +1,50 @@
+
+.slide1.carousel-item{
+    background-image: url('../../Assets/Images/background1.jpg') !important;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  .carousel-item{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .slide2.carousel-item{
+    background-image: url('../../Assets/Images/background2.jpg') !important;
+
+  }
+  .slide3.carousel-item{
+    background-image: url('../../Assets/Images/background3.jpg') !important;
+
+  }
+  .slider-header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+  }
+  .slider-header .login-info>button{
+    padding: 5px 10px;
+      border-radius: 7px;
+      background-color: #fff !important;
+      outline: none;
+      border: none;
+      z-index: 999 !important;
+      cursor: pointer;
+      margin: 0 5px;
+  }
+  .slider-header h3{
+    color: #f6c044;
+    font-family: auto !important;
+  
+  }
+  .inner-content{
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .inner-content h3{
+    color: #fff;
+  }
